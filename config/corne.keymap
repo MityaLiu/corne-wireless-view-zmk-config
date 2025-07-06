@@ -9,11 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 /*
- * Assign the cs-gpios pin to 2.
+ * Assign the cs-gpios pin to 16.
  * Uncomment these next few lines if implementing nice!view Displays
  */
 
-nice_view_spi: &spi0 { cs-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>; };
+nice_view_spi: &spi0 { cs-gpios = <&pro_micro 16 GPIO_ACTIVE_HIGH>; };
 
 / {
         keymap {
